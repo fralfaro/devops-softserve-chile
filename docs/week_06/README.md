@@ -14,15 +14,14 @@ Develop your skills, broaden your mind and become a part of our team – we offe
 
 **PROJECT LAB ADVANTAGES**
 
-1. **3 months of practice** to list on your CV  (February 10, 2025 to May 9, 2025)
+1. **3 months of practice** to list on your CV  
 2. **A real project** with real challenges  
 3. **Develop job-ready skills**, both technical and soft skills  
 4. **Mentors’ advice** and Tech Leads’ guidance  
 5. **Improve your English level** with classes  
 6. **Opportunity to enroll in the Apprenticeship program** and become a Junior Developer  
 
-
-> 💡 **Note**: All class materials are available in the [Google Drive](https://drive.google.com/drive/folders/1hTqu5VdqxQ1GEwwS1kVKcIh-wacmfxY-?usp=drive_link).
+> 💡 **Note**: Classes will be held from February 10, 2025 to May 9, 2025.
 
 
 **PROJECT LAB INFORMATION**
