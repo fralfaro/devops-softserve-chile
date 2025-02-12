@@ -40,3 +40,5 @@ Develop your skills, broaden your mind and become a part of our team – we offe
 | **Automation** | - Shell Scripting  <br> - Python for administration |
 | **Monitoring** | - Distributed monitoring  <br> - Logging (integrations, IaC Configs and alarms) |
 | **Cloud Computing** | - Understanding services and applications by type  <br> - Cloud service models  <br> - Cloud computing platforms (AWS, Azure, Google Cloud, OpenStack, etc.)  <br> - Orchestration (Terraform, AWS CloudFormation, Azure Resource Manager, etc.) |
+
+> 💡 **Note**: You can find more information about these concepts in the [Glossary](glossary.md).
