@@ -1,7 +1,5 @@
 # Tools: Jira and Confluence
 
-
-
 ## **Agenda**  
 The document covers the tools **Jira** and **Confluence**, including their key functionalities:
 

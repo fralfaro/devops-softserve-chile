@@ -1,5 +1,8 @@
 # DEVOPS PROJECT LAB CHILE
 
+![example workflow](https://github.com/fralfaro/devops-softserve-chile/actions/workflows/documentation.yml/badge.svg)
+<a href="https://fralfaro.github.io/devops-softserve-chile/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/📖 docs-link-brightgreen"></a>
+
 <div style="text-align: center;">
     <img src="images/logo.png" alt="Descripción de la imagen" style="max-width: 70%; height: auto;">
 </div>

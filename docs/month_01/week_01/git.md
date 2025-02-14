@@ -1,4 +1,4 @@
-# Git Introduction - Summary
+# Git Introduction 
 
 ## **What is Version Control?**
 - Version Control (VC), also known as Source Control (SCM), manages changes to documents, code, and other data.
