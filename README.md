@@ -24,9 +24,6 @@ Develop your skills, broaden your mind and become a part of our team – we offe
 6. **Opportunity to enroll in the Apprenticeship program** and become a Junior Developer  
 
 
-> 💡 **Note**: All class materials are available in the [Google Drive](https://drive.google.com/drive/folders/1hTqu5VdqxQ1GEwwS1kVKcIh-wacmfxY-?usp=drive_link).
-
-
 **PROJECT LAB INFORMATION**
 
 
