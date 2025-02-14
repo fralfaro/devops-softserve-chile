@@ -94,6 +94,7 @@ nav:
     - 🏠 Home:
         - index.md
     - 📅 Month 01:
+        - month_01/README.md
         - 📕 Week 01:
           - month_01/week_01/concepts.md
           - month_01/week_01/git.md
