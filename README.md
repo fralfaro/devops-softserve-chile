@@ -8,7 +8,6 @@
 </div>
 
 
-
 Step into the IT world under the mentors’ guidance! Become job-ready and boost your skills with the practical experience of working on a project with real challenges
 
 Why should you choose DevOps? It’s where your decisions matter: you’ll deliver tangible business outcomes within your role and create a real business impact. You’ll have a helicopter view over the operations and development, which will provide you with endless opportunities to learn and refine your skills.
