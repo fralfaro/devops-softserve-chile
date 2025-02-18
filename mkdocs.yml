@@ -99,6 +99,9 @@ nav:
           - month_01/week_01/concepts.md
           - month_01/week_01/git.md
           - month_01/week_01/jira.md
+        - 📕 Week 02:
+          - month_01/week_02/agile.md
+          - month_01/week_02/networking.md
     - 📅 Month 02:
         - month_02/README.md
     - 📅 Month 03:
