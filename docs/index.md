@@ -9,20 +9,20 @@ hide:
 
 ## Table of Contents
 
-::cards:: cols=4
+::cards:: cols=6
 
 - title: Month 01
-  content: week 1 - week 4
+  content: Weeks 1 - 4
   image: images/icons/calendar.png
   url: month_01/
 
 - title: Month 02
-  content: week 5 - week 8
+  content: Weeks 5 - 8
   image: images/icons/calendar.png
   url: month_02/
 
 - title: Month 03
-  content: week 9 - week 12
+  content: Weeks 9 - 12
   image: images/icons/calendar.png
   url: month_03/
 

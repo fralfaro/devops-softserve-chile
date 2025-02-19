@@ -1,4 +1,4 @@
-# **Agile, Scrum, and Kanban**
+# Agile, Scrum, and Kanban
 
 ## **Introduction**
 This document covers key aspects of Agile methodologies, focusing on **Scrum** and **Kanban**. It also discusses the **Software Development Lifecycle (SDLC)** and its application in **DevOps**.
@@ -8,13 +8,13 @@ This document covers key aspects of Agile methodologies, focusing on **Scrum** a
 ## **Software Development Lifecycle (SDLC)**
 - The **Software Development Lifecycle (SDLC)** is a process for building software systems in a structured way.
 - It consists of multiple phases:
-  - **Planning**
-  - **Analysis**
-  - **Design**
-  - **Development**
-  - **Testing**
-  - **Deployment**
-  - **Operations & Maintenance**
+    - **Planning**
+    - **Analysis**
+    - **Design**
+    - **Development**
+    - **Testing**
+    - **Deployment**
+    - **Operations & Maintenance**
 - SDLC can be implemented using different methodologies.
 
 ### **SDLC in DevOps**
@@ -26,11 +26,11 @@ This document covers key aspects of Agile methodologies, focusing on **Scrum** a
 ## **Project Management in Software Development**
 - Project management involves **leading a team** to meet specific project goals under given constraints (time, budget, scope).
 - Various software project management methodologies exist:
-  - **Waterfall**
-  - **Spiral (RUP and others)**
-  - **V-Model**
-  - **eXtreme Programming (XP)**
-  - **Agile (Scrum, Kanban, etc.)**
+    - **Waterfall**
+    - **Spiral (RUP and others)**
+    - **V-Model**
+    - **eXtreme Programming (XP)**
+    - **Agile (Scrum, Kanban, etc.)**
 - Agile methodologies have gained popularity due to their adaptability and iterative approach.
 
 
@@ -122,9 +122,9 @@ Agile is based on the **Agile Manifesto**, which prioritizes:
   2. What can be done this Sprint?
   3. How will the work be accomplished?
 - Common estimation techniques:
-  - **Planning Poker**
-  - **T-Shirt Sizes**
-  - **Bucket System**
+    - **Planning Poker**
+    - **T-Shirt Sizes**
+    - **Bucket System**
 
 ### **Daily Scrum (Daily Stand-up)**
 - **15-minute daily meeting**.
@@ -159,17 +159,17 @@ Agile is based on the **Agile Manifesto**, which prioritizes:
 
 ### **Sprint Backlog**
 - Contains:
-  - **Sprint Goal** (why).
-  - **Selected Product Backlog Items** (what).
-  - **Actionable plan** (how).
+   - **Sprint Goal** (why).
+   - **Selected Product Backlog Items** (what).
+   - **Actionable plan** (how).
 - Maintained by **Developers**.
 
 ### **Product Backlog Items (PBIs)**
 - Includes:
-  - **User Stories**
-  - **Feature Definitions**
-  - **Non-functional Requirements**
-  - **Constraints & Bugs**
+    - **User Stories**
+    - **Feature Definitions**
+    - **Non-functional Requirements**
+    - **Constraints & Bugs**
 
 ### **User Stories**
 - Short descriptions of user needs:
