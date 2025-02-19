@@ -56,8 +56,8 @@ Issues move through different **statuses** (e.g., Open, In Progress, Resolved, C
 Confluence is an enterprise wiki designed to help teams share and collaborate efficiently.  
 
 - **Key Features**:
-  - Create, share, and discuss ideas, files, and projects.  
-  - Reduce email and meetings for better efficiency.  
+   - Create, share, and discuss ideas, files, and projects.  
+   - Reduce email and meetings for better efficiency.  
 
 ### **Confluence Terminology**  
 - **Space**: A collection of wiki pages.  
@@ -68,10 +68,10 @@ Confluence is an enterprise wiki designed to help teams share and collaborate ef
 
 ### **Page Management in Confluence**  
 Users can:  
-- Create, edit, move, copy, and delete pages.  
-- Search content, export in PDF/Word/HTML/XML formats.  
-- Organize content using **parent-child** relationships.  
-- Collaborate via comments and view page history.  
+   - Create, edit, move, copy, and delete pages.  
+   - Search content, export in PDF/Word/HTML/XML formats.  
+   - Organize content using **parent-child** relationships.  
+   - Collaborate via comments and view page history.  
 
 ### **Wiki Markup in Confluence**  
 - **Headings**: `h1.`, `h2.` for different levels.  
