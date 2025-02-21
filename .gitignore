@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# other
+
+docs/month_01/week_02/01_exercises/generate_scripts.sh
