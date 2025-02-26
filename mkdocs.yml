@@ -103,11 +103,11 @@ nav:
           - month_01/week_02/agile.md
           - month_01/week_02/networking.md
           - month_01/week_02/os.md
-          - month_01/week_02/01_exercises.md
+          - month_01/week_02/bash_exercise.md
         - 📕 Week 03:
           - month_01/week_03/bash.md
-          - month_01/week_03/01_exercises.md
-          - month_01/week_03/02_exercises.md
+          - month_01/week_03/bash_exercise.md
+          - month_01/week_03/python_exercise.md
     - 📅 Month 02:
         - month_02/README.md
     - 📅 Month 03:
