@@ -86,6 +86,7 @@
 - You can now share your repository with others.
 - Optionally, you can deploy the app using platforms like **Heroku, Render, or Railway**.
 
+
 > **💡 Solutions**: 
 > 
 > - All solutions can be found in this folder → [Link](https://github.com/fralfaro/devops-softserve-chile/tree/main/docs/month_01/week_03/02_exercises).  
