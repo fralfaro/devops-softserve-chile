@@ -1,4 +1,4 @@
-# Bash Scripting Exercises
+# Exercise 01: Bash Scripting Exercises
 
 Do the exercises listed below. Each exercise must be done in a different `.sh` file (be sure that such files are executable). Please share the files in a GitHub repository and provide the repo URL via Discord (as a response to these messages).
 

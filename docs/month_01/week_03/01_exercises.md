@@ -1,4 +1,4 @@
-# Grep and Regex Exercises
+# Exercise 01: Grep and Regex Exercises
 
 Do the exercises listed below. Each exercise must be done in a different `.sh` file (be sure that such files are executable). Please share the files in a GitHub repository and then share the repo URL via Discord (as responses to these messages).
 
