@@ -56,7 +56,7 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
+#*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -172,4 +172,7 @@ cython_debug/
 
 # other
 
-docs/month_01/week_02/01_exercises/generate_scripts.sh
+docs/*/*/*/generate_scripts.sh
+#docs/*/*/*/generate_inputs.sh
+01_exercises/*
+!01_exercises/*.sh

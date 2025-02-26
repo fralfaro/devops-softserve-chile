@@ -2,6 +2,8 @@
 
 Do the exercises listed below. Each exercise must be done in a different `.sh` file (be sure that such files are executable). Please share the files in a GitHub repository and provide the repo URL via Discord (as a response to these messages).
 
+## 📌 Exercises
+
 ### 1️⃣ Create a Script  
 Write a Bash script that prints `"Hello, Bash Scripting!"` to the terminal.
 
@@ -68,4 +70,8 @@ Create a script that continuously checks the **CPU usage** every **5 seconds** a
 ### 2️⃣0️⃣ Schedule a Cron Job  
 Write a script that sets up a **cron job** to run a **backup script** every day at **midnight**.
 
-> **💡 Solutions**: All solutions can be found in this folder → [Link](https://github.com/fralfaro/devops-softserve-chile/tree/main/docs/month_01/week_02/01_exercises)
+
+> **💡 Solutions**: 
+> 
+> - All solutions can be found in this folder → [Link](https://github.com/fralfaro/devops-softserve-chile/tree/main/docs/month_01/week_02/01_exercises).  
+
