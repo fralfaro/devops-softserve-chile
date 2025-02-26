@@ -10,13 +10,13 @@
         <meta name="author" content="Francisco Alfaro">
       
       
-        <link rel="canonical" href="https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/agile/">
+        <link rel="canonical" href="https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/bash_exercise/">
       
       
-        <link rel="prev" href="../../week_01/jira/">
+        <link rel="prev" href="../os/">
       
       
-        <link rel="next" href="../networking/">
+        <link rel="next" href="../../week_03/bash/">
       
       
       <link rel="icon" href="../../../images/icon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Agile, Scrum, and Kanban - Devops Project Lab Chile</title>
+        <title>Exercise 01: Bash Scripting Exercises - Devops Project Lab Chile</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agile-scrum-and-kanban" class="md-skip">
+        <a href="#exercise-01-bash-scripting-exercises" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agile, Scrum, and Kanban
+              Exercise 01: Bash Scripting Exercises
             
           </span>
         </div>
@@ -633,30 +633,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Agile, Scrum, and Kanban
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../agile/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -665,365 +645,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Introduction
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-development-lifecycle-sdlc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Software Development Lifecycle (SDLC)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Software Development Lifecycle (SDLC)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sdlc-in-devops" class="md-nav__link">
-    <span class="md-ellipsis">
-      SDLC in DevOps
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-in-software-development" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project Management in Software Development
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agile-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      Agile Methodology
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Agile Methodology">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scrum-vs-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum vs. Kanban
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      Kanban
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Kanban">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-is-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Kanban?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#key-kanban-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Kanban Practices
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kanban-board" class="md-nav__link">
-    <span class="md-ellipsis">
-      Kanban Board
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-is-scrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Scrum?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-pillars" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Pillars
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Values
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-key-elements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Key Elements
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-roles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Roles
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-events" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Events
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum Events">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sprint" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-planning" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Planning
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#daily-scrum-daily-stand-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Daily Scrum (Daily Stand-up)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Review
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-retrospective" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Retrospective
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#event-time-boxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Event Time-Boxes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-artifacts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Artifacts
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum Artifacts">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#product-backlog" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Backlog
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-backlog" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Backlog
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#product-backlog-items-pbis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Backlog Items (PBIs)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#user-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Stories
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#increment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Increment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#definition-of-done-dod" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definition of Done (DoD)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-with-remote-teams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum with Remote Teams
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum with Remote Teams">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Best Practices
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      Useful Resources
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1075,10 +696,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../bash_exercise/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercise 01: Bash Scripting Exercises
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1087,6 +728,221 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Exercises
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📌 Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Create a Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-accept-user-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Accept User Input
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-check-if-a-file-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      3️⃣ Check If a File Exists
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-list-files-in-a-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣ List Files in a Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-simple-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      5️⃣ Simple Calculator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-check-if-a-number-is-even-or-odd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6️⃣ Check If a Number is Even or Odd
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-loop-through-a-list-of-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      7️⃣ Loop Through a List of Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-rename-multiple-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      8️⃣ Rename Multiple Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-copy-and-move-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣ Copy and Move Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-disk-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔟 Check Disk Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-change-file-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣1️⃣ Change File Permissions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-find-large-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣2️⃣ Find Large Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-monitor-a-log-file-in-real-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣3️⃣ Monitor a Log File in Real-Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-extract-information-using-grep" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣4️⃣ Extract Information Using grep
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-automate-a-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣5️⃣ Automate a Backup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-count-word-occurrences-in-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣6️⃣ Count Word Occurrences in a File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-find-and-replace-text-in-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣7️⃣ Find and Replace Text in a File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-delete-files-older-than-x-days" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣8️⃣ Delete Files Older Than X Days
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-monitor-cpu-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣9️⃣ Monitor CPU Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-schedule-a-cron-job" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣0️⃣ Schedule a Cron Job
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1363,28 +1219,190 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#exercises" class="md-nav__link">
     <span class="md-ellipsis">
-      Introduction
+      📌 Exercises
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📌 Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Create a Script
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#software-development-lifecycle-sdlc" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#2-accept-user-input" class="md-nav__link">
     <span class="md-ellipsis">
-      Software Development Lifecycle (SDLC)
+      2️⃣ Accept User Input
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Software Development Lifecycle (SDLC)">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#sdlc-in-devops" class="md-nav__link">
+  <a href="#3-check-if-a-file-exists" class="md-nav__link">
     <span class="md-ellipsis">
-      SDLC in DevOps
+      3️⃣ Check If a File Exists
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-list-files-in-a-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      4️⃣ List Files in a Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-simple-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      5️⃣ Simple Calculator
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-check-if-a-number-is-even-or-odd" class="md-nav__link">
+    <span class="md-ellipsis">
+      6️⃣ Check If a Number is Even or Odd
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-loop-through-a-list-of-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      7️⃣ Loop Through a List of Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-rename-multiple-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      8️⃣ Rename Multiple Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-copy-and-move-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣ Copy and Move Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-disk-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔟 Check Disk Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-change-file-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣1️⃣ Change File Permissions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-find-large-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣2️⃣ Find Large Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-monitor-a-log-file-in-real-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣3️⃣ Monitor a Log File in Real-Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-extract-information-using-grep" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣4️⃣ Extract Information Using grep
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-automate-a-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣5️⃣ Automate a Backup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-count-word-occurrences-in-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣6️⃣ Count Word Occurrences in a File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-find-and-replace-text-in-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣7️⃣ Find and Replace Text in a File
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-delete-files-older-than-x-days" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣8️⃣ Delete Files Older Than X Days
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-monitor-cpu-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣9️⃣ Monitor CPU Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-schedule-a-cron-job" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣0️⃣ Schedule a Cron Job
     </span>
   </a>
   
@@ -1392,312 +1410,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-management-in-software-development" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project Management in Software Development
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agile-methodology" class="md-nav__link">
-    <span class="md-ellipsis">
-      Agile Methodology
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Agile Methodology">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scrum-vs-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum vs. Kanban
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      Kanban
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Kanban">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-is-kanban" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Kanban?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#key-kanban-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Kanban Practices
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kanban-board" class="md-nav__link">
-    <span class="md-ellipsis">
-      Kanban Board
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-is-scrum" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Scrum?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-pillars" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Pillars
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-values" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Values
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-key-elements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Key Elements
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-roles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Roles
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-events" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Events
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum Events">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sprint" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-planning" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Planning
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#daily-scrum-daily-stand-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Daily Scrum (Daily Stand-up)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Review
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-retrospective" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Retrospective
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#event-time-boxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Event Time-Boxes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-artifacts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum Artifacts
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum Artifacts">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#product-backlog" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Backlog
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint-backlog" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sprint Backlog
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#product-backlog-items-pbis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Product Backlog Items (PBIs)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#user-stories" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Stories
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#increment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Increment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#definition-of-done-dod" class="md-nav__link">
-    <span class="md-ellipsis">
-      Definition of Done (DoD)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scrum-with-remote-teams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scrum with Remote Teams
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Scrum with Remote Teams">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Best Practices
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      Useful Resources
-    </span>
-  </a>
   
 </li>
       
@@ -1716,268 +1428,61 @@
                   
 
 
-<h1 id="agile-scrum-and-kanban">Agile, Scrum, and Kanban</h1>
-<h2 id="introduction"><strong>Introduction</strong></h2>
-<p>This document covers key aspects of Agile methodologies, focusing on <strong>Scrum</strong> and <strong>Kanban</strong>. It also discusses the <strong>Software Development Lifecycle (SDLC)</strong> and its application in <strong>DevOps</strong>.</p>
-<h2 id="software-development-lifecycle-sdlc"><strong>Software Development Lifecycle (SDLC)</strong></h2>
+<h1 id="exercise-01-bash-scripting-exercises">Exercise 01: Bash Scripting Exercises</h1>
+<p>Do the exercises listed below. Each exercise must be done in a different <code>.sh</code> file (be sure that such files are executable). Please share the files in a GitHub repository and provide the repo URL via Discord (as a response to these messages).</p>
+<h2 id="exercises">📌 Exercises</h2>
+<h3 id="1-create-a-script">1️⃣ Create a Script</h3>
+<p>Write a Bash script that prints <code>"Hello, Bash Scripting!"</code> to the terminal.</p>
+<h3 id="2-accept-user-input">2️⃣ Accept User Input</h3>
+<p>Write a script that prompts the user for their name and then prints:<br />
+<code>Hello, &lt;name&gt;! Welcome to Bash scripting.</code></p>
+<h3 id="3-check-if-a-file-exists">3️⃣ Check If a File Exists</h3>
+<p>Create a script that takes a filename as an argument and checks if the file exists.<br />
+- If it does, print <code>"File exists"</code><br />
+- Otherwise, print <code>"File does not exist"</code></p>
+<h3 id="4-list-files-in-a-directory">4️⃣ List Files in a Directory</h3>
+<p>Write a script that asks the user for a directory path and lists all the files in that directory.</p>
+<h3 id="5-simple-calculator">5️⃣ Simple Calculator</h3>
+<p>Write a script that asks the user for two numbers and an operation (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>), then performs the calculation and displays the result.</p>
+<h3 id="6-check-if-a-number-is-even-or-odd">6️⃣ Check If a Number is Even or Odd</h3>
+<p>Write a script that takes a number as input and prints whether it is <strong>even</strong> or <strong>odd</strong>.</p>
+<h3 id="7-loop-through-a-list-of-files">7️⃣ Loop Through a List of Files</h3>
+<p>Create a script that prints the names of all <code>.txt</code> files in the current directory.</p>
+<h3 id="8-rename-multiple-files">8️⃣ Rename Multiple Files</h3>
+<p>Write a script that renames all <code>.txt</code> files in a directory by adding a <code>_backup</code> suffix before the file extension.<br />
+Example:<br />
+<code>file.txt → file_backup.txt</code></p>
+<h3 id="9-copy-and-move-files">9️⃣ Copy and Move Files</h3>
+<p>Write a script that moves all <code>.log</code> files from one directory to another.<br />
+- The <strong>source</strong> and <strong>destination</strong> directories should be provided as arguments.</p>
+<h3 id="check-disk-usage">🔟 Check Disk Usage</h3>
+<p>Write a script that displays the current <strong>disk usage percentage</strong> and warns the user if it exceeds <strong>80%</strong>.</p>
+<h3 id="11-change-file-permissions">1️⃣1️⃣ Change File Permissions</h3>
+<p>Write a script that sets <strong>read, write, and execute</strong> permissions for the <strong>owner</strong> of all <code>.sh</code> files in a directory.</p>
+<h3 id="12-find-large-files">1️⃣2️⃣ Find Large Files</h3>
+<p>Write a script that finds and lists all files in the current directory that are larger than <strong>100MB</strong>.</p>
+<h3 id="13-monitor-a-log-file-in-real-time">1️⃣3️⃣ Monitor a Log File in Real-Time</h3>
+<p>Use <code>tail -f</code> in a script to monitor a system log file (<code>/var/log/syslog</code> or <code>/var/log/auth.log</code>).</p>
+<h3 id="14-extract-information-using-grep">1️⃣4️⃣ Extract Information Using grep</h3>
+<p>Write a script that extracts all lines containing <code>"ERROR"</code> from a log file.</p>
+<h3 id="15-automate-a-backup">1️⃣5️⃣ Automate a Backup</h3>
+<p>Create a script that copies all <code>.conf</code> files from <code>/etc/</code> to a <strong>backup directory</strong> with a timestamp.</p>
+<h3 id="16-count-word-occurrences-in-a-file">1️⃣6️⃣ Count Word Occurrences in a File</h3>
+<p>Write a script that counts how many times a specific <strong>word</strong> appears in a given <strong>text file</strong>.</p>
+<h3 id="17-find-and-replace-text-in-a-file">1️⃣7️⃣ Find and Replace Text in a File</h3>
+<p>Write a script that replaces all occurrences of a <strong>specific word</strong> in a file with another word.</p>
+<h3 id="18-delete-files-older-than-x-days">1️⃣8️⃣ Delete Files Older Than X Days</h3>
+<p>Write a script that deletes all files in a specified directory that are older than <strong>7 days</strong>.</p>
+<h3 id="19-monitor-cpu-usage">1️⃣9️⃣ Monitor CPU Usage</h3>
+<p>Create a script that continuously checks the <strong>CPU usage</strong> every <strong>5 seconds</strong> and alerts the user if it exceeds <strong>90%</strong>.</p>
+<h3 id="20-schedule-a-cron-job">2️⃣0️⃣ Schedule a Cron Job</h3>
+<p>Write a script that sets up a <strong>cron job</strong> to run a <strong>backup script</strong> every day at <strong>midnight</strong>.</p>
+<blockquote>
+<p><strong>💡 Solutions</strong>: </p>
 <ul>
-<li>The <strong>Software Development Lifecycle (SDLC)</strong> is a process for building software systems in a structured way.</li>
-<li>It consists of multiple phases:<ul>
-<li><strong>Planning</strong></li>
-<li><strong>Analysis</strong></li>
-<li><strong>Design</strong></li>
-<li><strong>Development</strong></li>
-<li><strong>Testing</strong></li>
-<li><strong>Deployment</strong></li>
-<li><strong>Operations &amp; Maintenance</strong></li>
+<li>All solutions can be found in this folder → <a href="https://github.com/fralfaro/devops-softserve-chile/tree/main/docs/month_01/week_02/01_exercises">Link</a>.  </li>
 </ul>
-</li>
-<li>SDLC can be implemented using different methodologies.</li>
-</ul>
-<h3 id="sdlc-in-devops"><strong>SDLC in DevOps</strong></h3>
-<ul>
-<li>DevOps integrates SDLC with automation and continuous delivery practices.</li>
-<li>More details: <a href="https://danielmaldonado.com.ar/programacion/que-es-devops/">What is DevOps?</a></li>
-</ul>
-<h2 id="project-management-in-software-development"><strong>Project Management in Software Development</strong></h2>
-<ul>
-<li>Project management involves <strong>leading a team</strong> to meet specific project goals under given constraints (time, budget, scope).</li>
-<li>Various software project management methodologies exist:<ul>
-<li><strong>Waterfall</strong></li>
-<li><strong>Spiral (RUP and others)</strong></li>
-<li><strong>V-Model</strong></li>
-<li><strong>eXtreme Programming (XP)</strong></li>
-<li><strong>Agile (Scrum, Kanban, etc.)</strong></li>
-</ul>
-</li>
-<li>Agile methodologies have gained popularity due to their adaptability and iterative approach.</li>
-</ul>
-<h2 id="agile-methodology"><strong>Agile Methodology</strong></h2>
-<p>Agile is based on the <strong>Agile Manifesto</strong>, which prioritizes:
-- <strong>Individuals and interactions</strong> over processes and tools.
-- <strong>Working software</strong> over comprehensive documentation.
-- <strong>Customer collaboration</strong> over contract negotiation.
-- <strong>Responding to change</strong> over following a plan.</p>
-<h3 id="scrum-vs-kanban"><strong>Scrum vs. Kanban</strong></h3>
-<ul>
-<li><strong>Scrum</strong> is a structured framework for iterative software development.</li>
-<li><strong>Kanban</strong> is a lean workflow management method, suitable for <strong>continuous delivery</strong> and incremental improvements.</li>
-</ul>
-<h2 id="kanban"><strong>Kanban</strong></h2>
-<h3 id="what-is-kanban"><strong>What is Kanban?</strong></h3>
-<ul>
-<li>A lean methodology that originated from the <strong>Toyota Production System (TPS)</strong>.</li>
-<li>Designed for <strong>continuous workflow improvement</strong> in Agile and DevOps teams.</li>
-</ul>
-<h3 id="key-kanban-practices"><strong>Key Kanban Practices</strong></h3>
-<ol>
-<li><strong>Visualizing workflow</strong> (via a <strong>Kanban board</strong>).</li>
-<li><strong>Limiting work in progress (WIP)</strong>.</li>
-<li><strong>Managing flow</strong> efficiently.</li>
-<li><strong>Making process policies explicit</strong>.</li>
-<li><strong>Implementing feedback loops</strong>.</li>
-<li><strong>Improving collaboratively</strong>.</li>
-</ol>
-<h3 id="kanban-board"><strong>Kanban Board</strong></h3>
-<ul>
-<li>A visual tool that tracks work items from <strong>To Do</strong> → <strong>In Progress</strong> → <strong>Done</strong>.</li>
-</ul>
-<h2 id="scrum"><strong>Scrum</strong></h2>
-<h3 id="what-is-scrum"><strong>What is Scrum?</strong></h3>
-<ul>
-<li>A framework for managing <strong>complex product development</strong>.</li>
-<li>Introduced by <strong>Hirotaka Takeuchi and Ikujiro Nonaka (1986)</strong>.</li>
-<li>Formalized by <strong>Ken Schwaber and Jeff Sutherland (1995)</strong>.</li>
-<li>Standardized in the <strong>Scrum Guide (2009)</strong>.</li>
-</ul>
-<h3 id="scrum-pillars"><strong>Scrum Pillars</strong></h3>
-<ol>
-<li><strong>Transparency</strong> – Everyone understands the work process.</li>
-<li><strong>Inspection</strong> – Regularly assess progress.</li>
-<li><strong>Adaptation</strong> – Adjust plans based on feedback.</li>
-</ol>
-<h3 id="scrum-values"><strong>Scrum Values</strong></h3>
-<ul>
-<li><strong>Commitment</strong></li>
-<li><strong>Focus</strong></li>
-<li><strong>Openness</strong></li>
-<li><strong>Respect</strong></li>
-<li><strong>Courage</strong></li>
-</ul>
-<h3 id="scrum-key-elements"><strong>Scrum Key Elements</strong></h3>
-<ul>
-<li><strong>Roles</strong></li>
-<li><strong>Events</strong></li>
-<li><strong>Artifacts</strong></li>
-</ul>
-<h2 id="scrum-roles"><strong>Scrum Roles</strong></h2>
-<ol>
-<li><strong>Developers</strong></li>
-<li>Build the software.</li>
-<li>Maintain the <strong>Sprint Backlog</strong>.</li>
-<li>
-<p>Ensure adherence to the <strong>Definition of Done</strong>.</p>
-</li>
-<li>
-<p><strong>Product Owner (PO)</strong></p>
-</li>
-<li>Maximizes product value.</li>
-<li>Manages the <strong>Product Backlog</strong>.</li>
-<li>
-<p>Represents stakeholders.</p>
-</li>
-<li>
-<p><strong>Scrum Master</strong></p>
-</li>
-<li>Ensures effective Scrum adoption.</li>
-<li>Coaches the team on Agile principles.</li>
-<li>Serves the <strong>Product Owner</strong>, <strong>Developers</strong>, and <strong>Organization</strong>.</li>
-</ol>
-<h2 id="scrum-events"><strong>Scrum Events</strong></h2>
-<h3 id="sprint"><strong>Sprint</strong></h3>
-<ul>
-<li>A <strong>time-boxed iteration</strong> (1 month or less) for development.</li>
-<li>Enables <strong>predictability and adaptability</strong>.</li>
-</ul>
-<h3 id="sprint-planning"><strong>Sprint Planning</strong></h3>
-<ul>
-<li>Defines the work for the sprint.</li>
-<li>Covers:</li>
-<li>Why is this Sprint valuable?</li>
-<li>What can be done this Sprint?</li>
-<li>How will the work be accomplished?</li>
-<li>Common estimation techniques:<ul>
-<li><strong>Planning Poker</strong></li>
-<li><strong>T-Shirt Sizes</strong></li>
-<li><strong>Bucket System</strong></li>
-</ul>
-</li>
-</ul>
-<h3 id="daily-scrum-daily-stand-up"><strong>Daily Scrum (Daily Stand-up)</strong></h3>
-<ul>
-<li><strong>15-minute daily meeting</strong>.</li>
-<li>Focuses on:</li>
-<li>What was completed yesterday?</li>
-<li>What will be done today?</li>
-<li>Are there any blockers?</li>
-</ul>
-<h3 id="sprint-review"><strong>Sprint Review</strong></h3>
-<ul>
-<li><strong>Second to last event of the sprint</strong>.</li>
-<li>Demonstrates progress to stakeholders.</li>
-<li>Determines next steps.</li>
-</ul>
-<h3 id="sprint-retrospective"><strong>Sprint Retrospective</strong></h3>
-<ul>
-<li><strong>Final event of the sprint</strong>.</li>
-<li>Focuses on <strong>team improvement</strong> and workflow enhancements.</li>
-</ul>
-<h3 id="event-time-boxes"><strong>Event Time-Boxes</strong></h3>
-<table>
-<thead>
-<tr>
-<th>Event</th>
-<th>30 days</th>
-<th>3 weeks</th>
-<th>2 weeks</th>
-<th>1 week</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Sprint Planning</td>
-<td>8 hrs</td>
-<td>&lt;8 hrs</td>
-<td>&lt;8 hrs</td>
-<td>&lt;4 hrs</td>
-</tr>
-<tr>
-<td>Daily Scrum</td>
-<td>15 min</td>
-<td>15 min</td>
-<td>15 min</td>
-<td>15 min</td>
-</tr>
-<tr>
-<td>Sprint Review</td>
-<td>4 hrs</td>
-<td>&lt;4 hrs</td>
-<td>&lt;4 hrs</td>
-<td>&lt;2 hrs</td>
-</tr>
-<tr>
-<td>Sprint Retrospective</td>
-<td>3 hrs</td>
-<td>&lt;3 hrs</td>
-<td>&lt;3 hrs</td>
-<td>&lt;1.5 hrs</td>
-</tr>
-</tbody>
-</table>
-<h2 id="scrum-artifacts"><strong>Scrum Artifacts</strong></h2>
-<h3 id="product-backlog"><strong>Product Backlog</strong></h3>
-<ul>
-<li>An <strong>ordered list</strong> of all necessary features and tasks.</li>
-<li>Maintained by the <strong>Product Owner</strong>.</li>
-</ul>
-<h3 id="sprint-backlog"><strong>Sprint Backlog</strong></h3>
-<ul>
-<li>Contains:</li>
-<li><strong>Sprint Goal</strong> (why).</li>
-<li><strong>Selected Product Backlog Items</strong> (what).</li>
-<li><strong>Actionable plan</strong> (how).</li>
-<li>Maintained by <strong>Developers</strong>.</li>
-</ul>
-<h3 id="product-backlog-items-pbis"><strong>Product Backlog Items (PBIs)</strong></h3>
-<ul>
-<li>Includes:<ul>
-<li><strong>User Stories</strong></li>
-<li><strong>Feature Definitions</strong></li>
-<li><strong>Non-functional Requirements</strong></li>
-<li><strong>Constraints &amp; Bugs</strong></li>
-</ul>
-</li>
-</ul>
-<h3 id="user-stories"><strong>User Stories</strong></h3>
-<ul>
-<li>Short descriptions of user needs:
-  <div class="highlight"><pre><span></span><code>As a [role], I want [goal], so that [benefit].
-</code></pre></div></li>
-</ul>
-<h3 id="increment"><strong>Increment</strong></h3>
-<ul>
-<li>A <strong>working piece of the product</strong> that delivers value.</li>
-<li>Must be <strong>usable</strong> and meet the <strong>Definition of Done</strong>.</li>
-</ul>
-<h3 id="definition-of-done-dod"><strong>Definition of Done (DoD)</strong></h3>
-<ul>
-<li>Establishes quality standards.</li>
-<li>Ensures that completed work is <strong>shippable</strong>.</li>
-</ul>
-<h2 id="scrum-with-remote-teams"><strong>Scrum with Remote Teams</strong></h2>
-<ul>
-<li>Remote work presents challenges such as:</li>
-<li>Communication gaps.</li>
-<li>Different time zones.</li>
-<li>Feeling of isolation.</li>
-<li>Knowledge fragmentation.</li>
-</ul>
-<h3 id="best-practices"><strong>Best Practices</strong></h3>
-<ul>
-<li><strong>Clear communication plan</strong>.</li>
-<li><strong>Effective collaboration tools</strong> (e.g., Slack, Jira).</li>
-<li><strong>Daily stand-ups</strong> to keep teams aligned.</li>
-<li><strong>Well-defined Product Backlog</strong>.</li>
-<li><strong>Encourage self-organization</strong>.</li>
-</ul>
-<h2 id="useful-resources"><strong>Useful Resources</strong></h2>
-<ul>
-<li><strong><a href="https://agilemanifesto.org/">Agile Manifesto</a></strong></li>
-<li><strong><a href="https://scrumguides.org/">Scrum Guide</a></strong></li>
-<li><strong><a href="https://www.scrum.org/">Scrum.org</a></strong></li>
-<li><strong><a href="https://www.atlassian.com/agile/scrum">Scrum in Atlassian</a></strong></li>
-<li><strong><a href="https://www.atlassian.com/agile/kanban">Kanban in Atlassian</a></strong></li>
-</ul>
+</blockquote>
 
 
 
@@ -2009,7 +1514,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../week_01/jira/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tools: Jira and Confluence">
+          <a href="../os/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction to Operating Systems and Linux">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2019,20 +1524,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Tools: Jira and Confluence
+                Introduction to Operating Systems and Linux
               </div>
             </div>
           </a>
         
         
           
-          <a href="../networking/" class="md-footer__link md-footer__link--next" aria-label="Next: Networking Basics">
+          <a href="../../week_03/bash/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction to Bash">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Networking Basics
+                Introduction to Bash
               </div>
             </div>
             <div class="md-footer__button md-icon">
