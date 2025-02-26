@@ -2,58 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/__init__/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_01/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_01/concepts/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_01/git/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_01/jira/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/01_exercises/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/agile/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/networking/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_02/os/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_03/</loc>
+         <lastmod>2025-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_03/01_exercises/</loc>
+         <lastmod>2025-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/devops-softserve-chile/month_01/week_03/bash/</loc>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_02/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
     <url>
          <loc>https://github.com/fralfaro/devops-softserve-chile/month_03/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-02-26</lastmod>
     </url>
 </urlset>
