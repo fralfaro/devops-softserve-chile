@@ -108,6 +108,8 @@ nav:
           - month_01/week_03/bash.md
           - month_01/week_03/bash_exercise.md
           - month_01/week_03/python_exercise.md
+        - 📕 Week 04:
+          - month_01/week_04/docker.md
     - 📅 Month 02:
         - month_02/README.md
     - 📅 Month 03:
